@@ -3,10 +3,9 @@
 
 import cv2
 from matplotlib import pyplot as plt
-
-# 1. Read in the image
 from matplotlib.pyplot import title
 
+# 1. Read in the image
 image = cv2.imread("/Users/phillipsimango/OneDrive/Image Processing/Task1/lightsource.jpg")
 
 # 2. Converting the image to YUV
